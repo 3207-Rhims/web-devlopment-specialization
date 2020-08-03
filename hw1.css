@@ -1,37 +1,60 @@
-header{
-    background-color:#cfc7c7 ;
-    color:rgb(235, 222, 222);
+header {
+	background-color: #848E66;
+	background-image: url("../images/good.jpg");
+	background-size:100%;
+	padding:25px;
 }
 
-
-h1{
-    text-align: center;
-    font: size 110;
-    text-transform: uppercase;
-}
-nav,a{
-    color:rgb(8,8,8);
-    background-color: #e6dddd;
-    background-image: url("images/flywheel.jpeg");
-    display:inline-block;
-}
-section{
-    background-color:rgb(90, 85, 85) ;
-}
-h2{
-    color:rgb(28, 28, 102);
-    text-transform: uppercase;
-}
-li,a{
-    color:rgb(8,8,8);
-    background-color:#e6dddd;
-    display:inline-table;
-}
-img{
-    display:none;
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: x-large;
+	text-transform: uppercase;
 }
 
-body{
-    padding:10px;
-    margin:1px;
+nav a{
+	display: inline-block;
+	margin: 2%;
+		
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+
+	text-decoration: none;
+	padding: 2%;
+
+	color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(146, 151, 144, 0.6);
+	width:155px;
+	height: 25px;
+}
+
+.active {
+	background-color: #FFFFFF;
+}
+
+.left {
+	background-color: #848E66;
+	width: 24%;
+	float:left;
+	padding: 5% 0;
+}
+
+.right {
+	width:74%;
+	display: inline-block;
+	padding: 2% 0;
+}
+
+.left img {
+	border: solid 1px rgb(96, 143, 102);
+	width: 80%;
+	margin: 10%;
+}
+body {
+	padding: 10px;
+	margin: 2%;
 }
